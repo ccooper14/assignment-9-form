@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Basic Bootstrap File</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+  <h1>The Ultimate New England Patriots Quiz</h1>
+
+  <p class="lead">The New England Patriots are the best team in the NFL. Led by future Hall of Famer, Tom Brady, the Patriots have won several Super Bowl Championships and have started the 2015 season 7-0. This quiz will test your knowledge of the defending Super Bowl Champs. For more information check out: https://en.wikipedia.org/wiki/New_England_Patriots</p>
+
+<div class="container-fluid">
+
+<form>
+
+  <div class="row">
+
+		<div class="col-lg-12">
+      <label for "inputCoach">Who is the head coach of the New England Patriots?</label>
+      <input type="text" id="inputCoach" placeholder="Name"></div>
+		<div class="col-lg-12">
+      <label for "inputStadiumName">What is the name of the stadium where the Patriots play home games?</label>
+      <input type="text" id="inputStadiumName" placeholder="Name"></div>
+		<div>
+      <label for "inputDeflateGate">Give a brief description of your opinion on "Deflategate" (There is a right or wrong answer).</label>
+      <input type="textarea" id="inputDeflateGate" placeholder="Description"></div>
+		<div class="clearfix visible-md-block"></div>
+		<div class="col-lg-12">
+      <p>How many Super Bowls have the Patriots won?</p>
+      <div class="radio">
+        <label>
+          <input name="options" type="radio">
+          One
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input name="options" type="radio">
+          Four
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input name="options" type="radio">
+          Six
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input name="options" type="radio">
+          Five
+        </label>
+      </div>
+    </div>
+		<div class="col-lg-12">
+      <p>Which players currently play for the Patriots? Check all that apply.</p>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox">
+          Tom Brady
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox">
+          Brandon LaFell
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox">
+          Dion Lewis
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox">
+          Randy Moss
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox">
+          Tim Tebow
+        </label>
+      </div>
+    </div>
+		<div class="col-lg-12">
+      <div class="form-group">
+        <label class="col-sm-2 control-label"
+          for="selectTeam">Who is the best team in the NFL?</label>
+          <div class="col-sm-10">
+            <select class="form-control" id="selectTeam">
+              <option>The Colts</option>
+              <option>The Broncos</option>
+              <option>The Bucs</option>
+              <option>The Patriots</option>
+            </select>
+          </div>
+    </div>
+  </div>
+
+<br>
+<br>
+
+  <a class="btn btn-default" href="#" role="button">Submit</a>
+  <button class="btn btn-default"
+    type="submit">Reset</button>
+
+</form>
+
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
